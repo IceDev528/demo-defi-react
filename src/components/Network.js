@@ -64,7 +64,7 @@ function Network(props) {
             </ButtonGroup>
             <div className="total-info">
                 <label>Total Deposited: ${total}</label> <br />
-                <label>Earned Interest: ${((total * interest / 100) * (days / 365)).toFixed(2)}</label>
+                <label>Earned Interest: ${((total * rate / 100) * (days / 365)).toFixed(2)}</label>
             </div>
         </div>
     );
